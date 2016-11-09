@@ -20,7 +20,7 @@ class CreateBarangsTable extends Migration
             $table->integer('jumlah');
             $table->decimal('harga',10,2);
             $table->timestamps();
-        });r
+        });
     }
 
     /**
